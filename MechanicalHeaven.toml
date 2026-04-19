@@ -1,0 +1,75 @@
+[[card]]
+id = 1000000001
+name = "Mechanical Harpy"
+type = "monster normal tuner"
+attribute = "light"
+race = "machine"
+atk = 400
+def = 400
+level = 1
+effect = '''A harpy made of cogs. They assist in keeping order within the Mechanical Heavens.
+'''
+setcode = 0xf00
+
+[[card]]
+id = 1000000002
+name = "Mechanical Angel"
+type = "monster effect"
+attribute = "light"
+race = "machine"
+atk = 1500
+def = 600
+level = 4
+effect = '''This card can be Special Summoned from your hand when a "Mechanical" monster is Synchro Summoned.
+'''
+setcode = 0xf00
+
+[[card]]
+id = 1000000003
+name = "Mechanical Soldier"
+type = "monster synchro effect"
+attribute = "light"
+race = "machine"
+atk = 3000
+def = 2000
+level = 5
+effect = '''1 "Mechanical" Tuner + 1+ Non Tuner
+When this card is Synchro Summoned: Add 1 "Mechanical Divinity" from your Deck to your hand. If 1 "Mechanical Divinity" is used as Synchro Material: (Quick-Effect): Special Summon 1 "Mechanical" monster from your Deck or GY. 
+'''
+setcode = 0xf00
+
+[[card]]
+id = 1000000004
+name = "Mechanical Divinity"
+type = "spell"
+effect = '''Tribute 2 "Mechanical" monsters, and then Special Summon 1 "Mechanical" monster from your Deck, and if you do, that card can be treated as a Tuner if used for a Synchro Summon. If this card is in the GY, you can banish 1 other "Mechanical" card in your GY, and if you do, Special Summon this card as a monster (Machine/LIGHT/Level 1/ATK 400/ DEF 400) (this card is no longer considered a Spell card).
+'''
+setcode = 0xf00
+
+[[card]]
+id = 1000000005
+name= "Great Mechanical Harpy"
+type = "monster link effect"
+attribute = "light"
+race = "machine"
+atk = 800
+effect = '''1 "Mechanical Harpy"
+If this card leaves the field, Special Summon 1 "Mechanical" Tuner from your Deck. If you control no other cards, you can return this card to your Extra Deck, and if you do, Special Summon as many "Mechanical Harpy" monsters as possible from your GY. You can Tribute 1 "Mechanical" Tuner on the field, Special Summon 1 "Mechanical" Synchro monster of the same level as the tributed monster.
+'''
+link-arrows = 'bottom'
+link-rating = 1
+setcode = 0xf00
+
+[[card]]
+id = 1000000006
+name = "Mechanical Harpy Soldier"
+type = "monster synchro effect"
+attribute = "light"
+race = "machine"
+atk = 2500
+def = 2500
+level = 6
+effect = '''1 "Mechanical" Tuner + 1+ Non Tuner
+Can only be Synchro Summoned. When this card is Special Summoned, target 1 card your opponent controls, destroy it. This card cannot be destroyed by card effects. Once per turn (Quick Effect), when an opponent activates an effect, you can Tribute 1 "Mechanical" monster you control, negate that activation, and if you do, destroy that card. Once per turn, if you control no other monsters besides for "Mechanical Harpy Soldier", you can Special Summon 1 "Mechanical" monster from your Hand. 
+'''
+setcode = 0xf00
