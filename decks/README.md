@@ -1,0 +1,1 @@
+This decks aren't very playable yet, but soon.
